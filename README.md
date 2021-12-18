@@ -1,9 +1,9 @@
 # SolarSystemAR
 
-1. General Structure of Application:
+1. General Structure of Application:\
 
-  1.1. General Structure of Folders:
-  I have grouped my application files structured inside the DataFiles folder. 
+  1.1. General Structure of Folders:\
+  I have grouped my application files structured inside the DataFiles folder.\ 
   I have Animations, Audios, Fonts, Logo, Materials, Scenes, Scripts, and Textures folder in the DataFiles folder. 
   I also structured each of these subfolders according to my scenes. 
   For example, I have three scenes in my application which are named as MenuScene, ARScene, InformationScene 
