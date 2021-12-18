@@ -1,22 +1,22 @@
 # SolarSystemAR
 
-1. General Structure of Application:  
+A. General Structure of Application:  
 
-  1.1. General Structure of Folders:  
+  A.1. General Structure of Folders:  
   I have grouped my application files structured inside the DataFiles folder.  
   I have Animations, Audios, Fonts, Logo, Materials, Scenes, Scripts, and Textures folder in the DataFiles folder.  
   I also structured each of these subfolders according to my scenes.  
   For example, I have three scenes in my application which are named as MenuScene, ARScene, InformationScene  
   thus I have ARSceneTextures, InformationSceneTextures, and MenuSceneTextures folders inside the Textures folder.  
   
-  1.2. General Structure of Scripts:  
+  A.2. General Structure of Scripts:  
   I have ButtonStates folder which holds the information about the buttons on InformationScene,  
   HandlingPlanetInformations folder which holds the content of the planets in InformationScene,   
   ChangingButtonImageDynamically.cs file which changes the PlanetButton image in ARScene when the target image is found,   
   HandlingButtonEvents.cs file which redirects application between scenes, PlanetRing.cs file which creates a ring for Saturn,   
   Rotation.cs file which rotates planets around their center.  
 
-2. Description of Application:  
+B. Description of Application:  
   First I created the MenuScene. MenuScene has Start and Exit buttons.   
   When the start button is pressed, it goes to ARScene where image targets are recognized,  
   and when the exit button is pressed, the application exits.   
