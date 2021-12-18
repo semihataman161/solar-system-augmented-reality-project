@@ -39,8 +39,22 @@ B. Description of Application:
 &nbsp;&nbsp;When the Left button is pressed, it switches between the other information pages to the left.        
 &nbsp;&nbsp;When the Right button is pressed, it switches between the other information pages to the right.   
   
-WARNING!!!  
+C. WARNING!!!    
 &nbsp;&nbsp;After I finished my Unity application, I built this Unity project for the application to work on Android devices.   
-&nbsp;&nbsp;In order for the mobile application to work on the Android platform, the Android version must be at least Android 6.0 (Marshmallow).  
+&nbsp;&nbsp;In order for the mobile application to work on the Android platform, the Android version must be at least Android 6.0 (Marshmallow). 
+
+D. Some Images From App:  
+
+D.1. MenuScene
 ![1](https://user-images.githubusercontent.com/76014928/146654323-27a71ca0-9436-438e-8a0f-2fc729ab48ef.png)
+
+D.2. ARScene  
+![2](https://user-images.githubusercontent.com/76014928/146654360-f24941fd-de3c-4124-9d19-7f232291b07d.png)
+![3](https://user-images.githubusercontent.com/76014928/146654362-c386e2a3-6d5c-4177-b676-8dc6d43daefc.png)
+
+D.3. InformationScene
+![4](https://user-images.githubusercontent.com/76014928/146654377-4ed4bc37-8088-4b0d-8e89-cbf845e34772.png)
+![5](https://user-images.githubusercontent.com/76014928/146654380-23893e61-c2f7-4452-8cd6-ea89003110ad.png)
+![6i](https://user-images.githubusercontent.com/76014928/146654381-1f0fb739-ac56-4824-a259-377755f1eb84.png)
+![7](https://user-images.githubusercontent.com/76014928/146654387-1572a999-005e-4d87-80ec-8f0918ce5244.png)
 
