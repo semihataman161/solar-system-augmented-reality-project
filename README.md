@@ -1,4 +1,4 @@
-# SolarSystemAR
+# Solar System AR
 
 A. General Structure of Application:  
 
