@@ -1,49 +1,71 @@
 # Solar System AR
-
 A. General Structure of Application:  
-
-&nbsp;&nbsp;A.1. General Structure of Folders:  
-&nbsp;&nbsp;I have grouped my application files structured inside the DataFiles folder.  
-&nbsp;&nbsp;I have Animations, Audios, Fonts, Logo, Materials, Scenes, Scripts, and Textures folder in the DataFiles folder.  
-&nbsp;&nbsp;I also structured each of these subfolders according to my scenes.  
-&nbsp;&nbsp;For example, I have three scenes in my application which are named as MenuScene, ARScene, InformationScene  
-&nbsp;&nbsp;thus I have ARSceneTextures, InformationSceneTextures, and MenuSceneTextures folders inside the Textures folder.  
+<br>
+A.1. General Structure of Folders:  
+I have grouped my application files structured inside the DataFiles folder.  
+I have Animations, Audios, Fonts, Logo, Materials, Scenes, Scripts, and Textures folder in the DataFiles folder.  
+I also structured each of these subfolders according to my scenes.  
+For example, I have three scenes in my application which are named as MenuScene, ARScene, InformationScene  
+Thus I have ARSceneTextures, InformationSceneTextures, and MenuSceneTextures folders inside the Textures folder.  
   
-&nbsp;&nbsp;A.2. General Structure of Scripts:  
-&nbsp;&nbsp;I have ButtonStates folder which holds the information about the buttons on InformationScene,  
-&nbsp;&nbsp;HandlingPlanetInformations folder which holds the content of the planets in InformationScene,   
-&nbsp;&nbsp;ChangingButtonImageDynamically.cs file which changes the PlanetButton image in ARScene when the target image is found,   
-&nbsp;&nbsp;HandlingButtonEvents.cs file which redirects application between scenes, PlanetRing.cs file which creates a ring for Saturn,   
-&nbsp;&nbsp;Rotation.cs file which rotates planets around their center.  
+<br>
+A.2. General Structure of Scripts:  
+<br>
+I have a ButtonStates folder which holds the information about the buttons on InformationScene,  
+<br>
+HandlingPlanetInformations folder which holds the content of the planets in InformationScene,   
+<br>
+ChangingButtonImageDynamically.cs file which changes the PlanetButton image in ARScene when the target image is found,   
+<br>
+HandlingButtonEvents.cs file which redirects applications between scenes, PlanetRing.cs file which creates a ring for Saturn,   
+<br>
+Rotation.cs file which rotates planets around their center.  
 
 B. Description of Application:  
-&nbsp;&nbsp;First I created the MenuScene. MenuScene has Start and Exit buttons.   
-&nbsp;&nbsp;When the start button is pressed, it goes to ARScene where image targets are recognized,  
-&nbsp;&nbsp;and when the exit button is pressed, the application exits.   
+<br>
+First I created the MenuScene. MenuScene has Start and Exit buttons.   
+When the start button is pressed, it goes to ARScene where image targets are recognized,  
+and when the exit button is pressed, the application exits.   
   
-&nbsp;&nbsp;Secondly, I created the ARScene. Since I use the Marker-Based Augmented Reality approach in my application,  
-&nbsp;&nbsp;I have imported the Vuforia package into my application for the recognition of image targets.   
-&nbsp;&nbsp;Then I used an AR Camera instead of the Main Camera. I put Image Targets in Vuforia's database   
-&nbsp;&nbsp;and imported the database into my application. Then I used these image targets in my application.   
-&nbsp;&nbsp;I placed planets on these image targets. I created three buttons on the left side of the screen in ARScene.   
-&nbsp;&nbsp;When the home page button is pressed, the application is directed to the MenuScene, which is opened at first.   
-&nbsp;&nbsp;When the Exit button is pressed, the application is terminated. When the Planet button is pressed,   
-&nbsp;&nbsp;the planet information is transferred to the InformationScene according to the image target   
-&nbsp;&nbsp;and the application is directed to the InformationScene, which contains the information of the planets.   
-&nbsp;&nbsp;At the same time, the background image of the Planet button changes dynamically according to the planet recognized by the camera.   
+<br>
+Secondly, I created the ARScene. Since I use the Marker-Based Augmented Reality approach in my application,  
+<br>
+I have imported the Vuforia package into my application for the recognition of image targets.   
+<br>
+Then I used an AR Camera instead of the Main Camera. I put Image Targets in Vuforia's database   
+<br>
+and imported the database into my application. Then I used these image targets in my application.   
+<br>
+I placed planets on these image targets. I created three buttons on the left side of the screen in ARScene.   
+<br>
+When the home page button is pressed, the application is directed to MenuScene, which is opened first.   
+<br>
+When the Exit button is pressed, the application is terminated. When the Planet button is pressed,   
+<br>
+the planet information is transferred to the InformationScene according to the image target   
+<br>
+and the application is directed to the InformationScene, which contains information about the planets.   
+<br>
+At the same time, the background image of the Planet button changes dynamically according to the planet recognized by the camera.   
 
-&nbsp;&nbsp;Finally, I created the InformationScene. General information about the planets is shown here.   
-&nbsp;&nbsp;There are five buttons in the InformationScene. When the Back button is pressed, the application is directed to ARScene.   
-&nbsp;&nbsp;When the location information button is pressed, the planet's distance from the sun is displayed on the screen.     
-&nbsp;&nbsp;When the Other informations button is pressed, detailed information about the planet is displayed on the screen.     
-&nbsp;&nbsp;When the Left button is pressed, it switches between the other information pages to the left.        
-&nbsp;&nbsp;When the Right button is pressed, it switches between the other information pages to the right.   
-  
+<br>
+Finally, I created the InformationScene. General information about the planets is shown here.   
+<br>
+There are five buttons in the InformationScene. When the Back button is pressed, the application is directed to ARScene.   
+<br>
+When the location information button is pressed, the planet's distance from the sun is displayed on the screen.     
+<br>
+When the Other information button is pressed, detailed information about the planet is displayed on the screen.     
+<br>
+When the Left button is pressed, it switches between the other information pages to the left.        
+<br>
+When the Right button is pressed, it switches between the other information pages to the right.   
+<br><br>
 C. WARNING!!!    
-&nbsp;&nbsp;After I finished my Unity application, I built this Unity project for the application to work on Android devices.   
-&nbsp;&nbsp;In order for the mobile application to work on the Android platform, the Android version must be at least Android 6.0 (Marshmallow). 
+<br>After I finished my Unity application, I built this Unity project for the application to work on Android devices.   
+<br>In order for the mobile application to work on the Android platform, the Android version must be at least Android 6.0 (Marshmallow). 
 
-D. Some Images From App:  
+D. Some Images From the App:  
 
 D.1. MenuScene
 
